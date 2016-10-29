@@ -7,6 +7,9 @@
         "outDir": "./dist",
         "noEmitOnError": true
     },
+    "exclude": [
+        "node_modules"
+    ],
     "files": [
         "typings/index.d.ts",
         "src/main.ts"
